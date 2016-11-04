@@ -1,0 +1,24 @@
+{
+  "name": "webpack-del-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin for deleting files and folders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack-del-plugin",
+    "webpack-del-files",
+    "webpack-del-file",
+    "webpack-del-folder",
+    "webpack-del-folders",
+    "webpack-del-directory",
+    "webpack-del-directories",
+    "webpack-del"
+  ],
+  "author": "SMHFandA",
+  "license": "MIT License",
+  "dependencies": {
+    "del": "^2.2.2"
+  }
+}
