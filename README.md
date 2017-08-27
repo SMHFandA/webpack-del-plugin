@@ -1,9 +1,8 @@
 # Description
-**webpack-del-plugin** usefull if you need remove some files or folders
-before compilation processes. This plugin used [del package](https://www.npmjs.com/package/del).
+**webpack-del-plugin** allow you manage files during compilation process. This plugin using [del package](https://www.npmjs.com/package/del).
 
 # Usege
-1. Clean `dist` folder before compilation bundle:
+1. Delete all files from `dist` folder before compiling bundle:
 	```javascript
 	const path = require('path');
 	const WebpackDelPlugin = require('webpack-del-plugin');
@@ -43,5 +42,3 @@ before compilation processes. This plugin used [del package](https://www.npmjs.c
 		]
 	};
 	```
-
-For more information see [del package](https://www.npmjs.com/package/del) documentation.
