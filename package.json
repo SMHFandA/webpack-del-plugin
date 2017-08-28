@@ -16,7 +16,17 @@
     "webpack-del-directories",
     "webpack-del"
   ],
-  "author": "SMHFandA",
+  "author": {
+    "name": "Yura Chuchola",
+    "email": "SMHFandA@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMHFandA/webpack-del-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/SMHFandA/webpack-del-plugin/issues"
+  },
   "license": "MIT License",
   "dependencies": {
     "del": "^2.2.2"
